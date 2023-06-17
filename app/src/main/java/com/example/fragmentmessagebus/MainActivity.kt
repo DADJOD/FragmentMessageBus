@@ -1,7 +1,12 @@
 package com.example.fragmentmessagebus
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+
+// Активити совершенно пуст
+// Для диспетчеризации фрагменты используют
+// MessageBus
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
